@@ -1,0 +1,87 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(24, 24, 24);
+}
+
+.text-primary {
+    color: rgb(253, 110, 10);
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 226px;
+    margin-right: 230px;
+    padding-top: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn {
+    color: White;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    border: 0px;
+    padding: 18px 35px;
+}
+
+header {
+    background-color: rgb(255, 248, 243);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+}
+
+.t-hi {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    width: 177px;
+
+
+}
+
+.t-mary {
+    font-size: 85px;
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.p-shot {
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 500px;
+    margin-top: 20px;
+}
+.an-btn{
+    margin-top: 30px;
+}
